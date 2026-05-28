@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-PAGES-URL.pages.dev/sitemap.xml
+Sitemap: https://crypto-blog-directory-1.pages.dev/sitemap.xml
