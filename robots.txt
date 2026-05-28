@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://crypto-blog-directory-1.pages.dev/sitemap.xml
+Sitemap: https://cryptoblogdirectoryhub.netlify.app/sitemap.xml
