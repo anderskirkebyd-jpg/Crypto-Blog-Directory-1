@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <title>Crypto Blog Directory - Page 3 | Bitcoin & Blockchain Resources</title>
+    <meta name="description" content="Page 3 of our crypto blog directory featuring articles on Bitcoin, blockchain, DeFi, Web3, crypto investing, and digital asset education.">
+    <meta name="keywords" content="crypto blog, Bitcoin articles, blockchain education, DeFi guides, crypto investing, Web3 resources">
+    
+    <style>
+        :root {
+            --primary: #f7931a;
+            --bg: #0d1117;
+            --bg-card: #161b22;
+            --bg-hover: #1c2333;
+            --border: #30363d;
+            --text: #e6edf3;
+            --text-secondary: #8b949e;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        .header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--primary);
+        }
+        
+        .nav-links { display: flex; gap: 15px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 13px; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--primary); }
+        
+        .page-header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+        
+        .page-header h1 { font-size: 30px; font-weight: 800; margin-bottom: 8px; }
+        .page-header h1 .btc { color: var(--primary); }
+        .page-header p { font-size: 15px; color: var(--text-secondary); }
+        
+        .blog-section { padding: 20px 0 40px; }
+        .blog-section .section-title { font-size: 18px; margin-bottom: 16px; padding: 0 20px; }
+        
+        .blog-list { display: flex; flex-direction: column; gap: 8px; }
+        
+        .blog-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 18px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .blog-item:hover {
+            transform: translateX(4px);
+            border-color: var(--primary);
+            background: var(--bg-hover);
+            box-shadow: 0 4px 20px rgba(247, 147, 26, 0.08);
+        }
+        
+        .blog-item .item-num {
+            font-size: 12px;
+            color: var(--text-secondary);
+            min-width: 28px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .blog-item .item-content { flex: 1; min-width: 0; }
+        .blog-item .item-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 3px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .blog-item .item-domain { font-size: 11px; color: var(--text-secondary); }
+        .blog-item .item-arrow { color: var(--primary); font-size: 16px; transition: transform 0.2s; }
+        .blog-item:hover .item-arrow { transform: translateX(3px); }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 30px 0 40px;
+            flex-wrap: wrap;
+        }
+        
+        .page-link {
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+        
+        .page-link:hover { border-color: var(--primary); color: var(--primary); }
+        .page-link.active { background: var(--primary); color: #000; border-color: var(--primary); font-weight: 700; }
+        
+        .footer {
+            text-align: center;
+            padding: 25px 20px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+        
+        .footer a { color: var(--primary); text-decoration: none; }
+        .footer-links { display: flex; justify-content: center; gap: 15px; margin-bottom: 10px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); font-size: 12px; }
+        .footer-links a:hover { color: var(--primary); }
+        
+        @media (max-width: 640px) {
+            .page-header h1 { font-size: 22px; }
+            .blog-item .item-title { font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="/" class="brand">📚 Crypto Blog Directory</a>
+            <div class="nav-links">
+                <a href="/">Page 1</a>
+                <a href="page-2.html">Page 2</a>
+                <a href="page-3.html">Page 3</a>
+                <a href="page-4.html">Page 4</a>
+                <a href="sitemap.html">Sitemap</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Crypto <span class="btc">Blog Directory</span></h1>
+            <p>Page 3 — Articles 101-150 | Bitcoin, AI Crypto & Altcoin Resources</p>
+        </div>
+
+        <div class="blog-section">
+            <div class="container">
+                <div class="section-title">📄 Blog Articles 101–150</div>
+                <div class="blog-list">
+
+                    <!-- #101 -->
+                    <a href="https://pad.stuve.uni-ulm.de/s/_olxclPOJ" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">101</div>
+                        <div class="item-content">
+                            <div class="item-title">Ulm University Collaborative Research</div>
+                            <div class="item-domain">pad.stuve.uni-ulm.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #102 -->
+                    <a href="https://posteezy.com/bitcoin-btc-and-smart-crypto-education" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">102</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin BTC and Smart Crypto Education</div>
+                            <div class="item-domain">posteezy.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #103 -->
+                    <a href="https://telegra.ph/Bitcoin-BTC-and-AI-Tokens-Explained-05-11" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">103</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin BTC and AI Tokens Explained</div>
+                            <div class="item-domain">telegra.ph</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #104 -->
+                    <a href="https://regan-hunter-2.technetbloggers.de/bitcoin-web3-and-crypto-education-with-crypto-cobra" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">104</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin Web3 and Crypto Education with Crypto Cobra</div>
+                            <div class="item-domain">technetbloggers.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #105 -->
+                    <a href="https://writeablog.net/vaultback1/crypto-cobras-guide-to-bitcoin-basics" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">105</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide to Bitcoin Basics</div>
+                            <div class="item-domain">writeablog.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #106 -->
+                    <a href="https://miranda-shannon-2.thoughtlanes.net/crypto-cobra-guide-to-bitcoin-btc-and-crypto-investing-1778508045" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">106</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra Guide to Bitcoin BTC and Crypto Investing</div>
+                            <div class="item-domain">thoughtlanes.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #107 -->
+                    <a href="https://hedgedoc.eclair.ec-lyon.fr/s/gnpCLmTxF" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">107</div>
+                        <div class="item-content">
+                            <div class="item-title">EC Lyon HedgeDoc Research</div>
+                            <div class="item-domain">hedgedoc.eclair.ec-lyon.fr</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #108 -->
+                    <a href="https://pad.stuve.de/s/CMUSXvzCF" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">108</div>
+                        <div class="item-content">
+                            <div class="item-title">Stuve University Research Pad</div>
+                            <div class="item-domain">pad.stuve.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #109 -->
+                    <a href="https://hack.allmende.io/s/vjK7p11QP" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">109</div>
+                        <div class="item-content">
+                            <div class="item-title">Allmende Hackpad Document</div>
+                            <div class="item-domain">hack.allmende.io</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #110 -->
+                    <a href="https://md.swk-web.com/s/Ig74WwPoR" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">110</div>
+                        <div class="item-content">
+                            <div class="item-title">SWK Web Collaborative Document</div>
+                            <div class="item-domain">md.swk-web.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #111 -->
+                    <a href="https://pads.jeito.nl/s/L6qq-nBbkC" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">111</div>
+                        <div class="item-content">
+                            <div class="item-title">Jeito Collaborative Pad</div>
+                            <div class="item-domain">pads.jeito.nl</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #112 -->
+                    <a href="https://notes.medien.rwth-aachen.de/Yxf9Uh_WQw2YRH6GzGQaMg/" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">112</div>
+                        <div class="item-content">
+                            <div class="item-title">RWTH Aachen Research Notes</div>
+                            <div class="item-domain">notes.medien.rwth-aachen.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #113 -->
+                    <a href="https://squareblogs.net/chimedaisy9/crypto-cobra-and-the-future-of-ai-crypto" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">113</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra and the Future of AI Crypto</div>
+                            <div class="item-domain">squareblogs.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #114 -->
+                    <a href="https://pad.geolab.space/s/AKIg-U582" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">114</div>
+                        <div class="item-content">
+                            <div class="item-title">Geolab Crypto Research Pad</div>
+                            <div class="item-domain">pad.geolab.space</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #115 -->
+                    <a href="https://blogfreely.net/mimosaback1/crypto-cobra-explains-web3-btc-and-blockchain-ownership" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">115</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra Explains Web3 BTC and Blockchain Ownership</div>
+                            <div class="item-domain">blogfreely.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #116 -->
+                    <a href="https://doc.adminforge.de/s/R9jGnb_5KR" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">116</div>
+                        <div class="item-content">
+                            <div class="item-title">AdminForge Research Document</div>
+                            <div class="item-domain">doc.adminforge.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #117 -->
+                    <a href="https://hedgedoc.info.uqam.ca/s/RT7IHUq1k" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">117</div>
+                        <div class="item-content">
+                            <div class="item-title">UQAM HedgeDoc Crypto Research</div>
+                            <div class="item-domain">hedgedoc.info.uqam.ca</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #118 -->
+                    <a href="https://telegra.ph/Crypto-Cobras-Guide-to-Bitcoin-Basics-05-11" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">118</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide to Bitcoin Basics</div>
+                            <div class="item-domain">telegra.ph</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #119 -->
+                    <a href="https://writeablog.net/clovercopy4/crypto-cobra-and-the-bitcoin-revolution" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">119</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra and the Bitcoin Revolution</div>
+                            <div class="item-domain">writeablog.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #120 -->
+                    <a href="https://humorous-hyacinth-10tqslv.mystrikingly.com/blog/bitcoin-btc-and-ai-tokens-explained" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">120</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin BTC and AI Tokens Explained</div>
+                            <div class="item-domain">mystrikingly.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #121 -->
+                    <a href="https://notes.io/enaLT" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">121</div>
+                        <div class="item-content">
+                            <div class="item-title">Notes.io Crypto Research Document</div>
+                            <div class="item-domain">notes.io</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #122 -->
+                    <a href="https://hedgedoc.eclair.ec-lyon.fr/s/Lb_ykQKU7" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">122</div>
+                        <div class="item-content">
+                            <div class="item-title">EC Lyon Crypto Research Document</div>
+                            <div class="item-domain">hedgedoc.eclair.ec-lyon.fr</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #123 -->
+                    <a href="https://rentry.co/74vwrv5i" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">123</div>
+                        <div class="item-content">
+                            <div class="item-title">Rentry Crypto Research Document</div>
+                            <div class="item-domain">rentry.co</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #124 -->
+                    <a href="https://pad.stuve.de/s/IeLf8K7Bd" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">124</div>
+                        <div class="item-content">
+                            <div class="item-title">Stuve University Document</div>
+                            <div class="item-domain">pad.stuve.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #125 -->
+                    <a href="https://hack.allmende.io/s/xPUHu-sBU" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">125</div>
+                        <div class="item-content">
+                            <div class="item-title">Allmende Research Document</div>
+                            <div class="item-domain">hack.allmende.io</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #126 -->
+                    <a href="https://notes.medien.rwth-aachen.de/X-Iwz3GGQvapC4CvGFJtCA/" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">126</div>
+                        <div class="item-content">
+                            <div class="item-title">RWTH Aachen Media Notes</div>
+                            <div class="item-domain">notes.medien.rwth-aachen.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #127 -->
+                    <a href="https://pad.geolab.space/s/lPjxz7yom" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">127</div>
+                        <div class="item-content">
+                            <div class="item-title">Geolab Research Document</div>
+                            <div class="item-domain">pad.geolab.space</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #128 -->
+                    <a href="https://hedgedoc.info.uqam.ca/s/MSBdFhU55" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">128</div>
+                        <div class="item-content">
+                            <div class="item-title">UQAM Crypto Research Notes</div>
+                            <div class="item-domain">hedgedoc.info.uqam.ca</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #129 -->
+                    <a href="https://doc.adminforge.de/s/lFs6fgkuFs" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">129</div>
+                        <div class="item-content">
+                            <div class="item-title">AdminForge Document</div>
+                            <div class="item-domain">doc.adminforge.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #130 -->
+                    <a href="https://blogfreely.net/wormsyrup0/how-crypto-cobra-explains-decentralized-finance" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">130</div>
+                        <div class="item-content">
+                            <div class="item-title">How Crypto Cobra Explains Decentralized Finance</div>
+                            <div class="item-domain">blogfreely.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #131 -->
+                    <a href="https://posteezy.com/crypto-cobras-guide-future-digital-money" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">131</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide Future Digital Money</div>
+                            <div class="item-domain">posteezy.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #132 -->
+                    <a href="https://kenyabowl0.werite.net/bitcoin-and-crypto-education-with-crypto-cobra" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">132</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin and Crypto Education with Crypto Cobra</div>
+                            <div class="item-domain">werite.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #133 -->
+                    <a href="https://quartcouch5.bravejournal.net/crypto-cobra-guide-to-ai-crypto-defi-and-btc-cycles" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">133</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra Guide to AI Crypto DeFi and BTC Cycles</div>
+                            <div class="item-domain">bravejournal.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #134 -->
+                    <a href="https://notes.io/ena61" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">134</div>
+                        <div class="item-content">
+                            <div class="item-title">Notes.io Crypto Research</div>
+                            <div class="item-domain">notes.io</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #135 -->
+                    <a href="https://pads.zapf.in/s/AOeBmQ6JRF" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">135</div>
+                        <div class="item-content">
+                            <div class="item-title">Zapf Collaborative Document</div>
+                            <div class="item-domain">pads.zapf.in</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #136 -->
+                    <a href="https://zenwriting.net/irisfinger0/how-crypto-cobra-sees-the-crypto-market-evolving" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">136</div>
+                        <div class="item-content">
+                            <div class="item-title">How Crypto Cobra Sees the Crypto Market Evolving</div>
+                            <div class="item-domain">zenwriting.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #137 -->
+                    <a href="https://pad.stuve.de/s/5H6_ERzTO" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">137</div>
+                        <div class="item-content">
+                            <div class="item-title">Stuve University Pad</div>
+                            <div class="item-domain">pad.stuve.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #138 -->
+                    <a href="https://hack.allmende.io/s/m7WASqp0s" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">138</div>
+                        <div class="item-content">
+                            <div class="item-title">Allmende Collaborative Research</div>
+                            <div class="item-domain">hack.allmende.io</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #139 -->
+                    <a href="https://chang-mosley-4.federatedjournals.com/crypto-cobras-guide-to-bitcoin-wallets-and-crypto-security" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">139</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide to Bitcoin Wallets and Crypto Security</div>
+                            <div class="item-domain">federatedjournals.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #140 -->
+                    <a href="https://squareblogs.net/roofyacht2/crypto-cobra-and-the-future-of-bitcoin-education" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">140</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra and the Future of Bitcoin Education</div>
+                            <div class="item-domain">squareblogs.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #141 -->
+                    <a href="https://pad.geolab.space/s/l6w6rteBS" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">141</div>
+                        <div class="item-content">
+                            <div class="item-title">Geolab Space Research Document</div>
+                            <div class="item-domain">pad.geolab.space</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #142 -->
+                    <a href="https://hedgedoc.info.uqam.ca/s/Tn2c-Lt02" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">142</div>
+                        <div class="item-content">
+                            <div class="item-title">UQAM Research Document</div>
+                            <div class="item-domain">hedgedoc.info.uqam.ca</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #143 -->
+                    <a href="https://doc.adminforge.de/s/ua9vNLQjvK" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">143</div>
+                        <div class="item-content">
+                            <div class="item-title">AdminForge Crypto Notes</div>
+                            <div class="item-domain">doc.adminforge.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #144 -->
+                    <a href="https://posteezy.com/crypto-cobras-guide-bitcoin-basics-0" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">144</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide Bitcoin Basics</div>
+                            <div class="item-domain">posteezy.com</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #145 -->
+                    <a href="https://miranda-coffey-2.hubstack.net/how-crypto-cobra-helps-users-avoid-crypto-scams" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">145</div>
+                        <div class="item-content">
+                            <div class="item-title">How Crypto Cobra Helps Users Avoid Crypto Scams</div>
+                            <div class="item-domain">hubstack.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #146 -->
+                    <a href="https://macdonald-mack-8.technetbloggers.de/crypto-cobra-and-the-future-of-ai-crypto" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">146</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra and the Future of AI Crypto</div>
+                            <div class="item-domain">technetbloggers.de</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #147 -->
+                    <a href="https://postheaven.net/jumpercouch7/crypto-cobras-long-term-vision-for-crypto" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">147</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Long-Term Vision for Crypto</div>
+                            <div class="item-domain">postheaven.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #148 -->
+                    <a href="https://yogurtbowl7.werite.net/how-crypto-cobra-explains-btc-and-crypto" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">148</div>
+                        <div class="item-content">
+                            <div class="item-title">How Crypto Cobra Explains BTC and Crypto</div>
+                            <div class="item-domain">werite.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #149 -->
+                    <a href="https://munck-marquez-2.thoughtlanes.net/bitcoin-btc-and-smart-crypto-education" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">149</div>
+                        <div class="item-content">
+                            <div class="item-title">Bitcoin BTC and Smart Crypto Education</div>
+                            <div class="item-domain">thoughtlanes.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                    <!-- #150 -->
+                    <a href="https://writeablog.net/zimmermanbrink5259/crypto-cobras-guide-to-bitcoin-wallets-and-crypto-security" target="_blank" rel="dofollow" class="blog-item">
+                        <div class="item-num">150</div>
+                        <div class="item-content">
+                            <div class="item-title">Crypto Cobra's Guide to Bitcoin Wallets and Crypto Security</div>
+                            <div class="item-domain">writeablog.net</div>
+                        </div>
+                        <span class="item-arrow">→</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="/" class="page-link">1</a>
+            <a href="page-2.html" class="page-link">2</a>
+            <a href="page-3.html" class="page-link active">3</a>
+            <a href="page-4.html" class="page-link">4</a>
+            <a href="sitemap.html" class="page-link">📋 All</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="/">Page 1</a>
+            <a href="page-2.html">Page 2</a>
+            <a href="page-3.html">Page 3</a>
+            <a href="page-4.html">Page 4</a>
+            <a href="sitemap.html">Sitemap</a>
+        </div>
+        <p>© 2024 Crypto Blog Directory | Curated crypto education resources | <a href="sitemap.html">Full Index</a></p>
+    </footer>
+
+</body>
+</html>
